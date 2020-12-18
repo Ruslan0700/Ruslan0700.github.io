@@ -1,0 +1,358 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+nav,
+footer,
+header,
+aside {
+    display: block;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+.wrapper__content-block{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../images/header.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+
+
+.content__block-item{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    background-color:rgba(1, 1, 1, .1);
+    z-index: 1;
+    box-shadow: 0px 10px 20px 20px rgba(1, 1, 1, .5);
+}
+
+.content__block{
+    margin: 0 auto;
+    width: 80%;
+}
+
+
+.header {
+    display: grid;
+}
+
+.header__nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 35px 0px;
+    background-color: #181C3B;
+    border-radius: 5px;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+}
+
+.wrapper__header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.help__number{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    color: white;
+}
+
+.header__nav-ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 17px 0px 16px;
+    line-height: 1.0;
+}
+
+.active {
+    background-color: #7b8086;
+}
+
+.nav__ul-li {
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 19px 0px 16px;
+    line-height: 1.8;
+}
+
+.nav__ul-li::after {
+    content: "";
+    border-left: 1px solid white;
+    margin: 10px 0px 10px 32px;
+}
+
+.nav__ul-li:last-child::after {
+    border: none;
+}
+
+.ul__li-link {
+    text-decoration: none;
+    padding: 0px 24px;
+    color: #fff;
+    font-weight: 500;
+    white-space: nowrap;
+    border-radius: 4px;
+}
+
+.ul__li-link:hover {
+    background-color: #7b8086;
+}
+
+.content{
+    height: 100vh;
+}
+
+.wrapper__content-block2{
+    font-family: Arial, Helvetica, sans-serif;
+    background-repeat: repeat; 
+    background-image: url(../images/depositphotos_31469975-stock-illustration-seamless-pattern-with-fishes.jpg);
+    padding-bottom: 65px;
+}
+
+.container__block2{
+    margin: 0 auto;
+    width: 80%;
+    background-color: rgba(114, 137, 179, 0.95);
+    box-shadow: 0px 0px 18px 20px rgba(114, 137, 178, 0.95);
+}
+
+.content__block2-item{
+    padding: 49px 0px 53px 0px;
+}
+
+.block2__item-container{
+    padding: 0px 20px 0px 20px;
+}
+
+.block2__item-padding{
+    padding-bottom: 5px;
+}
+
+.video__youtube{
+    display: flex;
+    justify-content: center;
+    margin: 40px 0px 10px 0px; 
+}
+
+.video__youtube-fishing{
+    border-radius: 20px;
+}
+
+.block2__wrapper-image{
+    margin: 40px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.block2__item-image{
+    height: 500px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 20px 10px rgba(51, 92, 144, .9);
+}
+
+.block2__wrapper-image2{
+    margin: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.block2__item-image2{
+    max-width: 500px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 20px 10px rgba(51, 92, 144, .9);
+}
+
+.footer__item{
+    display: flex;
+    justify-content: center;
+}
+
+.footer__block{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    height: 100px;
+    background-color: #181C3B;
+    box-shadow: 0px 0px 18px 20px rgba(24, 28, 59, 0.95);
+}
+
+.footer__text_left{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 0px 0px 0px 20px;
+    font-family: sans-serif;
+    font-size: 18px;
+    color: #7b8086;
+}
+
+.footer__title{
+    padding-bottom: 10px;
+}
+
+.footer__ul{
+    display: flex;
+    margin: 0px 20px 0px 0px ;
+}
+
+.footer__li{
+    display: block;
+    position: relative;
+    padding: 0px 20px 0px 20px ;
+}
+
+.footer__li::after{
+    content:'';
+    position: absolute;
+    background-color: #82919f;
+    width: 2px;
+    height: 15px;
+    top: 0px;
+    right: 0px;
+}
+
+.footer__link{
+    color: #82919f;
+}
+
+.footer__link:hover{
+    color: #fff; 
+}
+
+
+
+
+
+@media screen and (min-width: 320px){
+    body{
+        overflow: hidden;
+    }
+    .wrapper__content-block{
+        position: relative;
+        width: 100vw;
+        height: 100vh;
+        background-image: url(../images/header.png);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+    }
+
+    .ul__li-link {
+
+        text-decoration: none;
+        padding: 0px 24px;
+        color: #fff;
+        font-weight: 500;
+        white-space: wrap;
+        border-radius: 4px;
+    }
+}
+
+
+
+@media screen and (max-width: 400px){
+    .header__nav-ul{
+        flex-direction: column;
+        width: 80vw;
+    }
+    .nav__ul-li{
+        position: relative;
+        padding: 0px 10px 0px 10px;
+        text-decoration: underline;
+    }
+
+    .nav__ul-li::after{
+        content:'';
+        position: absolute;
+        bottom: 0;
+        width: 0px;
+        height: 0px;
+    }
+
+    .ul__li-link {
+        margin: 5px 0px 5px 0px ;
+    }
+
+    .block2__item-image{
+        width: 300px;
+        height: auto;
+    }
+
+    .block2__item-image2{
+        width: 300px;
+        height: auto;
+    }
+    
+    .wrapper__header-image{
+        width: 300px;
+    }
+
+    .wrapper__header{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .wrapper__content-block2{
+        padding-bottom: 2000px;
+    }
+
+    .help__number{
+        font-size: 16px;
+        padding-top: 20px;
+    }
+
+    .footer__text_left{
+        font-size: 14px;
+    }
+
+    .footer__ul{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer__li::after{
+        content:'';
+    position: absolute;
+    background-color: #82919f;
+    width: 0px;
+    height: 0px;
+    top: 0px;
+    right: 0px;
+    }
+
+    .footer__navigation{
+        text-align: center;
+    }
+
+    .footer__link_nowrap{
+        white-space: nowrap;
+    }
+}
