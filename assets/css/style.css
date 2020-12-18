@@ -320,10 +320,6 @@ html {
         flex-direction: column;
     }
 
-    .wrapper__content-block2{
-        padding-bottom: 2000px;
-    }
-
     .help__number{
         font-size: 16px;
         padding-top: 20px;
